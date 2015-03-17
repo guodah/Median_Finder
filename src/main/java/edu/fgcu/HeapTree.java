@@ -43,7 +43,7 @@ class HeapTree<T extends Comparable<T>>{
 			father = (son-1)/2;
 		}
 
-		size+=2;
+		size++;
 	}
 
 	public T delete(){
